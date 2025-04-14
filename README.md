@@ -21,7 +21,7 @@ Welcome to the **MINEOGO Chatbot Project**! A customizable chatbot you can train
    - Create your own
    - Setup later
 
-* we are currently out of datasets this project eas freshly made we will add datasets soon*
+* we are currently out of datasets this project was freshly made we will add datasets soon*
 
 2. **Commands:**
    - `/train` – add new chat pairs
