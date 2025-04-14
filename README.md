@@ -42,7 +42,7 @@ Want to share your own dataset?
 
 **Message me:**
 - [Discord](https://discord.com/users/965456224365740073)
-- [Instagram](https://instagram.com/your-instagram-id)
+- [Instagram](https://www.instagram.com/venkatesh69420?igsh=MWR1NmVmNXBnZDBxeg==)
 
 ---
 
