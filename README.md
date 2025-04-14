@@ -56,3 +56,5 @@ MIT – free to use, change, and improve!
 ---
 
 *Train it. Talk to it. Make it yours.*
+
+*thanks for making this, [chatgpt](https://chatgpt.com/)*
