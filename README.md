@@ -34,9 +34,7 @@ Welcome to the **MINEOGO Chatbot Project**! A customizable chatbot you can train
 
 ## Format Example
 
-i:hello 
-o:Hi there! 
-i:how are you 
+i:hello\n o:Hi there! \n i:how are you 
 o:I'm just a script, but thanks!
 
 ---
