@@ -10,14 +10,14 @@ def clean_text(text):
 def load_mineogo_dataset(input_file):
     dataset = []
     with open(input_file, 'r', encoding='utf-8') as infile:
-        for line in infile:
-            if "->" in line:
-                input_text, response_text = line.split("->")
-                cleaned_input = clean_text(input_text.replace("i:", "").strip())
-                cleaned_response = clean_text(response_text.replace("o:", "").strip())
-                dataset.append((cleaned_input, cleaned_response))
+        lines = [line.strip() for line in infile if line.strip()]
+        for i in range(0, len(lines) - 1, 2):
+            if lines[i].startswith("i:") and lines[i+1].startswith("o:"):
+                input_text = clean_text(lines[i][2:].strip())
+                response_text = clean_text(lines[i+1][2:].strip())
+                dataset.append((input_text, response_text))
     return dataset
-
+    
 def save_dataset(input_file, dataset):
     with open(input_file, 'w', encoding='utf-8') as f:
         for input_text, response_text in dataset:
